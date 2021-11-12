@@ -1,0 +1,21 @@
+    1  https://github.com/nathalyfmoura/TIG-etseT.git
+    2  git clone https://github.com/nathalyfmoura/TIG-etseT.git
+    3  cd TIG-etseT/
+    4  git checkout -b feature/sum
+    5  git add .
+    6  git commit -m "Soma de valores"
+    7  git push origin feature/sum
+    8  git checkout master
+    9  git checkout -b feature/sub
+   10  git add .
+   11  git commit -m "Subtração de valores"
+   12  git push origin feature/sub
+   13  git restore.
+   14  git checkout master
+   15  git tag -a 1.0.0 -m "Primeira versão"
+   16  git add .
+   17  git commit -m "Adição do README"
+   18  git push origin master
+   19  git pull
+   20  git push origin master
+   21  history > LOG_NathalyMoura
