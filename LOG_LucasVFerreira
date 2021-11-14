@@ -1,0 +1,11 @@
+    1  git clone https://github.com/nathalyfmoura/TIG-etseT.git
+    2  cd TIG-etseT/
+    3  git checkout -b feature/div
+    4  git add .
+    5  git commit -m "Divisão de valores"
+    6  git push origin feature/div
+    7  git checkout master
+    8  git pull
+    9  git push origin master
+   10  history > LOG_LucasVFerreira
+   
