@@ -1,0 +1,9 @@
+    1  git clone https://github.com/nathalyfmoura/TIG-etseT.git
+    2  cd TIG-etseT/
+    3  git checkout -b feature/mult
+    4  git status
+    5  git add .
+    6  git commit -m 'Multiplicação de Valores'
+    7  git push origin feature/mult
+    8  history
+    9 history > LOG_FelipeMoura
